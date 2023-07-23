@@ -1,0 +1,216 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Section TITLE */
+#title {
+    min-height: 100vh;
+    background-color: #fff100;
+}
+
+/* Navbar */
+
+#title nav .navbar-brand {
+    color: #fff;
+    font-weight: 600;
+}
+
+#title nav .navbar-brand .fa-pepper-hot {
+    color: green;
+}
+
+#title .nav-link {
+    color: #fff;
+    font-weight: 600;
+    ;
+}
+.nav-link:hover{
+    width: fit-content;
+    border-radius: 20px;
+    box-shadow:0 0 40px #fff;
+}
+
+/* Title page */
+
+.container-fluid {
+    padding: 8% 16%;
+}
+@media screen and (max-width: 800px) {
+    .container-fluid{
+        padding: 5% 15%;
+    }
+}
+
+
+#title h1 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 200;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Buttons */
+
+.btn {
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn:hover{
+    color: #111;
+    background: #39ff14;
+    box-shadow: 0 0 50px #39ff14;
+}
+
+.my_button {
+    padding-top: 5vh;
+}
+
+.my_button .btn-danger {
+    margin-right: 1.5rem;
+    margin-left: 3rem;
+}
+.button-link{
+    text-decoration: none;
+    color: white;
+}
+
+#title img {
+    width: 80vh;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 810px) {
+    #title {
+        min-height: 0;
+    }
+    #title img {
+        width: 45vh;
+    }
+}
+@media  screen and (max-width: 600px) and (min-width: 400px) {
+    #title img{
+        width: 35vh;
+    }
+
+    .my_button .btn-danger {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+@media screen and (max-width: 400px){
+    #title img{
+        width: 35vh;
+    }
+    .my_button .btn-danger {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .my_button .btn-success{
+        margin-top: 3vh ;
+    }
+}
+/* Menu */  
+
+#Menu{
+    background-color: beige;
+}
+#Menu img{
+    border-radius: 10px;
+    width: 18.75rem;
+}
+.new_arr_img{
+    margin-left: 25%;
+    margin-bottom: 9vh;
+}
+@media only screen and (max-width:810px){
+    .new_arr_img{
+        margin-left: auto;
+    }
+}
+#Menu h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+    margin: 12vh 0;
+    color: black;
+    text-shadow: 0 0 5px purple;
+    font-weight: 900;
+}
+.link_menu{
+    /* background-color: rgb(255, 238, 53); */
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    text-shadow:0 0 5px red;
+    font-weight: 600;
+    font-family: 'Dancing Script', cursive;      
+}
+.lineup_img{
+    margin-bottom: 12vh;
+}
+
+/* Deal of the day */
+
+#Deal{
+    min-height: 100vh;
+    background-color: #fff100;
+}
+#Deal h2{
+    color: black;
+    font-size: 4rem;
+    font-weight: 900;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 0 0 5px skyblue;
+}
+.combo{
+    margin: 10vh 0;
+}
+/* button */
+.btn-primary{
+    font-size: 1.2rem;
+    margin: 5vh 0;
+}
+#Deal .combo-head{
+    text-shadow:0 0 5px #fff;
+    color: black;
+    font-size: 3rem;
+    font-family: 'Courgette', cursive;;
+}
+.Combo-details{
+    margin: 3vh 0;
+    font-family: 'Courgette', cursive;
+    font-size: 2.5rem ;
+}
+/* testimonials */
+#testimonials{
+    text-align: center;
+    background-color: #f5f5dc;
+    padding: 5% 15%;
+}
+#testimonials h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+}
+.testimonials-image{
+    margin: 10% 2%;
+    width: 10%;
+    border-radius: 100%;
+}
+.carousel-item{
+    padding: 5% 15%;
+}
+@media screen and (max-width: 600px){
+    .carousel-item{
+        padding: 2%;
+    }
+}
+/* Footer */
+
+#footer{
+    background-color: #fff;
+}
+#footer p{
+    font-size: 1rem;
+    color: #000;
+}
